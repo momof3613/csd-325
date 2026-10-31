@@ -17,7 +17,6 @@ def calculate_grade(score):
 
 def main():
     score = float(input("Enter student score: "))
-    breakpoint()
     grade = calculate_grade(score)
     print("Student grade:", grade)
 
